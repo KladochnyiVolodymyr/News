@@ -48,3 +48,116 @@ p{
 .menu-item.active a{
 	color: #fff;
 }
+
+/*-----left-column---------*/
+.left-column{
+	float: left;
+	width: 335px;
+	margin-top: 53px;
+}
+
+.block-title{
+	position: relative;
+    text-align: center;
+    margin: 0px 10px;
+}
+.title-text{
+	color: #fff;
+	font-family: "Georgia";
+	font-size: 16px;
+	background: #66747d;
+	border-top: 4px solid #ffb800;
+	padding: 8px 26px;
+	z-index:1;
+	position: relative;
+	display: inline-block;
+}
+.title-line-wrapper{
+	border: 2px solid #dcdddf;
+    border-width: 0px 2px;
+    height: 10px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -5px;
+    box-sizing: border-box;
+	z-index: 0;
+}
+.title-line{
+	display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #dcdddf;
+	top: 50%;
+    position: relative;
+    margin-top: -1px;
+}
+.news-item{
+	padding: 5px 10px;
+}
+.date{
+	color: #a2a2a2;
+	font-family: "Tahoma";
+	font-size: 13px;
+	margin: 10px 0px;
+}
+.fa-eye{
+	margin: 0px 10px 0px 22px;
+}
+.fa-camera {
+    color: #a2a2a2;
+    margin-left: 13px;
+	font-size: 13px;
+}
+.news-item.important {
+    background-color: #f0f0f0;
+}
+.news-text{
+	color: #343739;
+	font-family: "Tahoma";
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+}
+.news-item.important .news-text{
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 13px;
+	padding-top: 5px;
+}
+.main-news-text{
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------center-column------------*/
+
+.center-column{
+	width: 335px;
+}
+
+/*----------right-column-----------*/
+
+.right-column{
+	float: right;
+	width: 335px;
+}
+
+
+
+
+
