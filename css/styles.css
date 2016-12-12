@@ -137,19 +137,12 @@ p{
 .center-column{
 	width: 335px;
 	display: inline-block;
-	margin-top: 53px;
-}
-
-/*----------right-column-----------*/
-
-.right-column{
-	float: right;
-	width: 335px;
+	margin: 53px 20px 0px 20px;
 }
 .posts-item{
 	padding: 10px;
 }
-.posts-img{
+.item-img{
 	float: left;
 	margin-right: 17px;
 }
@@ -182,6 +175,74 @@ p{
 	color: #f7a600;
 }
 .posts-author{
+	color: #343739;
+	font-family: "Tahoma";
+	font-size: 13px;
+}
+
+/*----------right-column-----------*/
+
+.right-column{
+	float: right;
+	width: 335px;
+	margin-top: 53px;
+}
+.author-block-item{
+	padding: 10px;
+}
+.author-block-title{
+	color: #343739;
+	font-family: "Georgia";
+	font-size: 20px;
+	display: block;
+	margin: 5px 0px;
+}
+.news-text-bold{
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 13px;
+}
+.poll-block{
+	margin-top: 20px;
+}
+.poll-title{
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 15px;
+	text-align: center;
+	margin: 20px 32px 15px 32px;
+	border-bottom: 1px solid #cccfd2;
+	padding-bottom: 5px;
+}
+.poll-form{
+	margin-left: 5px;
+}
+.poll-input{
+	float: left;
+}
+.poll-text{
+	margin: 0px 27px 10px;
+	color: #343739;
+	font-family: "Tahoma";
+	font-size: 13px;
+}
+.poll-result{
+	text-align: center;
+}
+.poll-submit{
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 15px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	background-color: #ffb800;
+	padding: 11px 18px;
+	margin: 20px 0px 15px 0px;
+	outline:none;
+}
+.poll-result a{
+	display: block;
 	color: #343739;
 	font-family: "Tahoma";
 	font-size: 13px;
