@@ -53,7 +53,7 @@ p{
 .left-column{
 	float: left;
 	width: 335px;
-	margin-top: 53px;
+	margin: 53px 0px 40px;
 }
 
 .block-title{
@@ -244,6 +244,38 @@ p{
 .poll-result a{
 	display: block;
 	color: #343739;
+	font-family: "Tahoma";
+	font-size: 13px;
+}
+
+/*----------footer---------*/
+
+.footer{
+	background-color: #66747d;
+	padding-bottom: 50px;
+}
+.footer-text{
+	color: #b3bcc2;
+	font-family: "Tahoma";
+	font-size: 12px;
+	margin: 0px 25px;
+    padding: 50px 0px 20px;
+	border-bottom: 1px solid #8a959d;
+}
+.footer-nav{
+	display: inline-block;
+}
+.footer-nav-list{
+	padding-left: 25px;
+}
+.nav-item{
+	float: left;
+	list-style: none;
+	margin-right: 47px;
+}
+.nav-item a{
+	text-decoration: none;
+	color: #fff;
 	font-family: "Tahoma";
 	font-size: 13px;
 }
