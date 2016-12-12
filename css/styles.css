@@ -132,22 +132,12 @@ p{
 	font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------center-column------------*/
 
 .center-column{
 	width: 335px;
+	display: inline-block;
+	margin-top: 53px;
 }
 
 /*----------right-column-----------*/
@@ -156,8 +146,43 @@ p{
 	float: right;
 	width: 335px;
 }
+.posts-item{
+	padding: 10px;
+}
+.posts-img{
+	float: left;
+	margin-right: 17px;
+}
+.category{
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 11px;
+	background-color: #ffb800;
+	text-transform: uppercase;
+	padding: 5px 11px;
+	display: inline-block;
+    margin-top: 10px;
+}
+.posts-title{
+	display: block;
+	color: #343739;
+	font-family: "Tahoma_Bold";
+	font-size: 14px;
+	margin: 5px 0px;
+}
+.posts-description{
+	margin-top: 11px;
+}
+.posts-author a{
+	color: #f7a600;
+	text-decoration: none;
+}
 
-
-
-
-
+.posts-description a{
+	color: #f7a600;
+}
+.posts-author{
+	color: #343739;
+	font-family: "Tahoma";
+	font-size: 13px;
+}
